@@ -1,5 +1,5 @@
 # Stage 1: Build the React app with Vite
-FROM node:lts as builder
+FROM node:lts AS builder
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
